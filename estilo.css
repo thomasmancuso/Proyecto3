@@ -7,6 +7,9 @@
     font-family: "Libre Baskerville", serif;
 }
 
+header, footer{
+    height: 145px;
+}
 
 nav{
     text-decoration: none;
@@ -27,7 +30,8 @@ h1{
     padding-top: 35px;
 }
 
-footer{
+
+.fnor{
     color: white;
     background-color: black;
     text-align: center;
@@ -39,7 +43,8 @@ footer a:hover{
     color: gold;
 }
 
-header{
+
+.nores{
     background-color: black;
     justify-content: space-between;
 }
@@ -173,7 +178,6 @@ fieldset{
 .titulo{
     text-align: center;
     color: gold;
-    background-color: black;
 }
 
 .lema{
