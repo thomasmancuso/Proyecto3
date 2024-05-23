@@ -1,191 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Libre Baskerville", serif;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
 }
 
-header, footer{
-    height: 145px;
+header, footer {
+  height: 145px;
 }
 
-nav{
-    text-decoration: none;
-    color: white;
-    text-align: end;
-    margin-right: 10px;
-    margin-top: 40px;
+nav {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+  text-align: end;
+  margin-right: 10px;
+  margin-top: 40px;
 }
 
-nav a:hover{
-    color: gold;
+nav a:hover {
+  color: rgb(252, 215, 7);
 }
 
-h1{
-    color: gold;
-    margin-left: 140px;
-    margin-top: 0px;
-    padding-top: 35px;
+h1 {
+  color: rgb(252, 215, 7);
+  margin-left: 140px;
+  margin-top: 0px;
+  padding-top: 35px;
 }
 
-
-.fnor{
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 35px;
+.fnor {
+  color: rgb(252, 252, 252);
+  background-color: black;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 
-footer{
-    text-align: center;
-    color: white;
-    padding-top: 10px;
+footer {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
 
-footer a:hover{
-    color: gold;
+footer a:hover {
+  color: rgb(252, 215, 7);
 }
 
-
-.nores{
-    background-color: black;
-    justify-content: space-between;
+.nores {
+  background-color: black;
+  justify-content: space-between;
 }
 
-h2{
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border: 2px solid black;
+h2 {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 2px solid black;
 }
 
-.Imagen{
-    position: absolute;
-    height: 25%;
-    padding-left: 10px;
+.Imagen {
+  position: absolute;
+  height: 25%;
+  padding-left: 10px;
 }
 
-p{
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 30px;
+p {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
 }
 
-iframe{
-    margin-left: 20%;
-    margin-bottom: 50px;
-    margin-top: 50px;
+iframe {
+  margin-left: 20%;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.ubicacion{
-    margin-left: 30%;
+.ubicacion {
+  margin-left: 30%;
 }
 
-.imagenes{
-    margin-left: 4%;
-    margin-bottom: 40px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 180px);
+label, input {
+  margin-bottom: 35px;
+  margin-top: 30px;
+  display: inline-block;
 }
 
-.reloj4{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+fieldset {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
 }
 
-.reloj5{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.titulo {
+  text-align: center;
+  color: rgb(252, 215, 7);
 }
 
-.reloj6{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.lema {
+  text-align: center;
 }
 
-.reloj7{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.imagenes {
+  margin-left: 4%;
+  margin-bottom: 40px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 180px);
+  padding-left: 25px;
 }
 
-.reloj8{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj4 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj9{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj5 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj10{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj6 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj11{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj7 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj12{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj8 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj13{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj9 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj14{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj10 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.reloj15{
-    padding-top: 10px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+.reloj11 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-label, input{
-    margin-bottom: 35px;
-    margin-top: 30px;
-    display: inline-block;
+.reloj12 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-fieldset{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
+.reloj13 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.titulo{
-    text-align: center;
-    color: gold;
+.reloj14 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
 
-.lema{
-    text-align: center;
+.reloj15 {
+  padding-top: 10px;
+  padding-right: 35px;
+  padding-bottom: 35px;
 }
+
+/*# sourceMappingURL=estilo.css.map */
